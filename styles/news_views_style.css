@@ -12,8 +12,27 @@ h1 {
   color: #62FF7C;
   text-shadow: 3px 3px 1px black;
 }
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #62FF7C;
+  text-shadow: 3px 3px 1px black;
+}
+p, li {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+ul {
+  float: left;
+  width: 500px;
+}
 body {
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
   background-color: #F200FF;
   padding: 0 20px 20px 20px;
@@ -21,6 +40,24 @@ body {
 }
 img {
   display: block;
-  margin: 0 auto;
+  margin: 150px 0px 0px 300px;
   width: 600px;
+}
+iframe {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 599px;
+  height: 600px;
+  border: grey;
+}
+#left_frame,
+#right_frame {
+  float:left;
+  /*border: none;*/
+}
+#left_list li {
+  list-style-type: none;
+}
+#right_list li {
+  list-style-type: none;
 }
